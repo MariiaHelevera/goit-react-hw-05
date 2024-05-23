@@ -1,0 +1,9 @@
+.movieItem {
+    color: rgb(0, 1, 43);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.movieItem:hover {
+    color: orangered;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

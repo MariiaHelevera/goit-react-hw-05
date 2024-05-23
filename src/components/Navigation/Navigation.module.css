@@ -1,0 +1,28 @@
+.link {
+    color: black;
+}
+
+.active {
+    color: orangered;
+}
+
+.navList {
+    padding-left: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.navBar {
+    background-color: #fff;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.762), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    z-index: 999;
+}

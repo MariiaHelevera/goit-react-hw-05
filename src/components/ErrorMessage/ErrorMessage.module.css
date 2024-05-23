@@ -1,0 +1,8 @@
+.errorMessageContainer {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
